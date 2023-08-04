@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: auto;
+}
+.header-title{
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.list-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 150px;
+    padding: 0 60px;
+    border-bottom: 2px solid #cecece;
+}
+.item-menu{
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 3px solid rgb(32, 74, 214);
+}

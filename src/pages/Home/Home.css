@@ -1,0 +1,43 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.repeat-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.icon-delete-all{
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px 14px;
+    color: white;
+    background-color: rgb(33, 80, 167);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.icon-delete-all:hover{
+    background-color: rgb(204, 50, 76);
+}

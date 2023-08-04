@@ -1,0 +1,17 @@
+.list-todo-item{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.list-todo-text{
+    font-weight: 600;
+}
+.list-todo-text.active-text{
+    color: #8a8888;
+    text-decoration:line-through;
+}
+
+.icon-delete{
+   margin-left: auto;
+   cursor: pointer;
+}
